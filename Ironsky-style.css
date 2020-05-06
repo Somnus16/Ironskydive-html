@@ -22,6 +22,8 @@ h1 {
   text-transform: uppercase;
 }
 h2 {
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
   font-size: 5em;
   text-align: center;
   line-height: 4em;
@@ -57,11 +59,6 @@ h5 {
   background-size: cover;
   height: 650px;
 }
-#general-information {
-  font-size: 2em;
-  font-weight: 100;
-  text-align: center;
-}
 .link-btn {
   background-color: rgb(67, 163, 230);
   color: white;
@@ -79,4 +76,45 @@ h5 {
   font-size: 2em;
   font-weight: 100;
   text-align: center;
+}
+.service-box {
+  font-size: 1.7em;
+  text-align: center;
+}
+.service-box img {
+  width: 125px;
+}
+.section-text {
+  font-size: 1.9em;
+  text-align: center;
+}
+.member-name {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+#team img {
+  width: 250px;
+  height: 180px;
+}
+.address {
+  font-style: normal;
+  font-size: .8em;
+}
+.footer {
+  font-size: 1.9em;
+  text-align: center;
+  list-style: none;
+}
+.footer a {
+  color: rgb(67, 163, 230);
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-margin {
+  margin: 0;
+  padding: 0;  
 }
