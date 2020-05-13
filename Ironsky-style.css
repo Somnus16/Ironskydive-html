@@ -26,7 +26,6 @@ body {
   left: 10%;
   bottom: 80px;
 }
-}
 h1,
 h2,
 h3,
@@ -226,4 +225,28 @@ h5 {
 .map-frame {
   height: 375px;
   width: 60%;
+}
+.slot-form-container {
+  width: 40%;
+  margin: 18px auto 0 auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+.slot-form-container label {
+  line-height: 15px;
+  margin: 5px;
+}
+.slot-form-container > input, select{
+  height: 20px;
+  outline: none;
+  padding: 3px;
+  width: 100%;
+}
+.slot-form-container > button {
+  border-style: solid;
+  border-color: black;
+  border-weight: 1px;
+  background-color: white;
+  padding: 9px;
+  margin: 15px;
 }
